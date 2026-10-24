@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap");
+
+
+body {
+    margin: 0;
+    font-family: "VT323", "Courier New", monospace;
+    font-size: 22px;
+    line-height: 1.4;
+    color: #303040;
+    background-color: #5aa63c;   
+}
+
+
+header {
+    min-height: 50vh;            
+    padding: 40px 20px;
+    text-align: center;
+    background-image: url("pokemon.jpg");
+    background-size: cover;     
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    border-bottom: 6px solid #303040;
+}
+
+header h1 {
+    margin: 0 0 20px 0;
+    font-family: "Press Start 2P", "Courier New", monospace;
+    font-size: 32px;
+    color: white;
+    text-shadow: 3px 3px 0 #303040;
+}
+
+header p {
+    display: inline-block;
+    margin: 0 0 20px 0;
+    padding: 8px 16px;
+    background-color: #f8f8f0;
+    border: 4px solid #303040;
+    border-radius: 8px;
+}
+
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 6px;
+}
+
+.navbar a {
+    display: block;
+    padding: 8px 18px;
+    color: #303040;
+    font-family: "Press Start 2P", "Courier New", monospace;
+    font-size: 12px;
+    text-decoration: none;
+    background-color: #f8f8f0;
+    border: 4px solid #303040;
+    border-radius: 8px;
+}
+
+.navbar a:hover {
+    background-color: #f8d030;   
+}
+
+
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 10px 30px 30px 30px;
+    background-color: #f8f8f0;
+    border: 6px solid #303040;
+    border-radius: 12px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+strong {
+    color: #e6503c;
+}
+
+
+h2 {
+    display: inline-block;
+    padding: 10px 14px;
+    font-family: "Press Start 2P", "Courier New", monospace;
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+    background-color: #e6503c;   
+    border: 4px solid #303040;
+    border-radius: 8px;
+}
+
+h3 {
+    font-family: "Press Start 2P", "Courier New", monospace;
+    font-size: 13px;
+    font-weight: normal;
+    color: #2f6fd1;
+}
+
+
+img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 10px auto 20px auto;
+    object-fit: cover;         
+    object-position: center 10%; 
+    border: 6px solid #f8d030;
+    border-radius: 50%;         
+}
+
+
+main ul,
+main ol {
+    padding: 15px 15px 15px 40px;
+    background-color: #e8f1fb;
+    border: 4px solid #303040;
+    border-radius: 8px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border: 3px solid #303040;
+}
+
+th {
+    font-family: "Press Start 2P", "Courier New", monospace;
+    font-size: 12px;
+    font-weight: normal;
+    color: white;
+    background-color: #2f6fd1;   
+}
+
+
+td:hover {
+    background-color: #f8d030;
+}
+
+
+main a {
+    color: #2f6fd1;
+}
+
+main a:hover {
+    color: #e6503c;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    color: #f8f8f0;
+    background-color: #303040;
+    border-top: 6px solid #f8d030;
+}
+
+footer p {
+    margin: 0;
+    font-family: "Press Start 2P", "Courier New", monospace;
+    font-size: 10px;
+    line-height: 1.8;
+}
